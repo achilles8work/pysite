@@ -19,6 +19,8 @@ the_pursuit_of_happyness = media.Movie("The Pursuit of Happyness", "A biographic
 
 toy_story = media.Movie("Toy Story 4", "A Story of a boy and his toys that come to life", "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg", "https://www.youtube.com/watch?v=Bj4gS1JQzjk" )
 
-movies = [avatar, deadpool, inception, inferno, interstellar, martian, the_da_vinci_code, the_pursuit_of_happyness, toy_story]
+fantastic_beast = media.Movie("Fantastic Beasts and Where to find them","A movie by J K Rolling","https://upload.wikimedia.org/wikipedia/en/5/5e/Fantastic_Beasts_and_Where_to_Find_Them_poster.png","https://www.youtube.com/watch?v=VYZ3U1inHA4")
+
+movies = [avatar, deadpool, inception, inferno, interstellar, martian, the_da_vinci_code, the_pursuit_of_happyness, toy_story, fantastic_beast]
 fresh_movie.open_movies_page(movies)
 
